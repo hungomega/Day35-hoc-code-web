@@ -1,0 +1,23 @@
+.button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.primary {
+    color: #fff;
+    background-color: pink;
+}
+// sizes
+.small {
+    padding: 4px 16px
+}
+.medium {
+    padding: 8px 20px
+}
+.large {
+    padding: 12px 25px
+}

@@ -1,0 +1,13 @@
+.active {
+    color: blue;
+    font-weight: 600;
+}
+.wrapper {
+    ul {
+        display: flex;
+        margin: 10px 0;
+    }
+}
+li {
+    padding: 10px;
+}

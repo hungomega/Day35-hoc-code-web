@@ -1,0 +1,1 @@
+export const truncateTitle  = (string,length) 

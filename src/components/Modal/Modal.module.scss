@@ -1,0 +1,61 @@
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+}
+
+/* Lớp nền tối phủ toàn bộ màn hình */
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+/* Hộp Modal nằm chính giữa màn hình */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+    min-height: 180px;
+    padding: 24px;
+    box-sizing: border-box;
+
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+
+    z-index: 1;
+}
+
+/* Nút đóng */
+.closeBtn {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+
+    border: none;
+    background: transparent;
+    font-size: 26px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+/* Nội dung bên trong Modal */
+.inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+    padding: 24px;
+    box-sizing: border-box;
+
+    background: #fff;
+    border-radius: 10px;
+    z-index: 1;
+}
